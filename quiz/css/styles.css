@@ -6,3 +6,8 @@
   background-color: skyblue;
   font-family: sans-serif;
 }
+ol li {
+  list-style-type: none;
+  color: black;
+  font-weight: bold;
+}
