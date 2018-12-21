@@ -46,3 +46,6 @@ kbd,
 samp {
   font-family: sans-serif;
 }
+.result {
+  display: none;
+}
