@@ -40,3 +40,9 @@ button {
   margin-left: 40%;
   border: 3px solid blue;
 }
+tt,
+code,
+kbd,
+samp {
+  font-family: sans-serif;
+}
