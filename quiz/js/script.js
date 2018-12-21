@@ -14,3 +14,13 @@ function getScore() {
     if (getCheckedValue("question" + i) === answers[i]) score += 1; // increment only
   return score;
 }
+$(document).ready(function() {
+  $("form").show();
+  $(".result").hide();
+  $("form").submit(function(event) {
+    event.preventDefault();
+    $("form").hide();
+    $(".result").show();
+    returnScore();
+  });
+});
