@@ -24,3 +24,8 @@ $(document).ready(function() {
     returnScore();
   });
 });
+function returnScore() {
+  // alert("Your score is " + getScore() + "/" + tot);
+  document.getElementById("marks").innerHTML =
+    "Your score is " + "<br>" + getScore() + "/" + tot;
+}
