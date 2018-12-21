@@ -21,3 +21,18 @@ ol li {
   color: white;
   text-align: center;
 }
+button {
+  background-color: skyblue;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 48%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+}
